@@ -399,6 +399,12 @@ nav ul li:first-child {
 }
 
 @media screen and (max-width: 670px) {
+
+  .image02 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+  }
   .bar{
     width: 250px;
     border-radius: 3px;
