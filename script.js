@@ -13,7 +13,7 @@ document.getElementById("enviarEmail").addEventListener("click", function() {
     var link = "https://api.whatsapp.com/send?phone=" + x + "&text=" + encodeURIComponent(mensagem);
     window.open(link);
 }
-
+  // Fade-In animation
 document.addEventListener("DOMContentLoaded", function() {
   var fadeContent = document.getElementById('fade-in-content');
   fadeContent.classList.add('fade-in-active');
