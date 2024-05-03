@@ -1,5 +1,8 @@
 # Portifolio
-Hello there! My name is Lucas Souza and I am a Brazilian and a student at PUC-MG Systems of Information "Tecnology of Information", I have experience in Web Development (Front End), Software Development with C# & Java and Systems Analysis. Furthermore, I am very interested in new cultures and languages, I'm fluent in English, have intermediate Spanish and basic French that I learn in Canada Vancouver from my Exchange in 2024.
+Hello There!! My name is <b>Lucas Souza</b> and I'm a System of Information student with a strong proficiency
+          in a variety of programming languages, including Java, Node.Js, Python,and <b>Full Stack</b>technologies such as
+          Angular, Typescript, C# and SQL. Fluent in English, with intermediate proficiency in Spanish and basic knowledge of French acquired during a stint in Vancouver. Possesses hands-on experience in FullStack development and a passion for learning and
+          implementing new technologies to solve complex problems.
 
 # My Contacts
 GitHub:   https://github.com/LucasVieiraaaa

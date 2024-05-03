@@ -3,37 +3,41 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   padding: 0;
-  background-image: url('imgs.project/imgs/background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;  
+  background-image: url("imgs.project/imgs/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-
+a{
+  color: white;
+  /* text-decoration: none; */
+}
 header {
   background: #0b0b0b;
   color: #3c3c3c;
   padding: 10px 0;
   width: 100%;
 }
-.textjustify{
+.textjustify {
   margin: 20px;
   text-align: justify;
-  line-height: 30px
-}.textjustify0{
+  line-height: 30px;
+}
+.textjustify0 {
   margin: 20px;
   text-align: justify;
   line-height: 20px;
   font-size: 12px;
 }
-
-.certificates{
+.certificates {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(920px, 2fr));
 }
-
+/* Lets Chat button */
 .letschat {
   text-decoration: none;
   background-color: #2561e2;
+  color: white;
   border-radius: 8px;
   font-size: medium;
   border: none;
@@ -41,9 +45,9 @@ header {
   height: 40px;
 }
 
-.level{
+.level {
   color: #ffffff;
-  font-size: 12px; 
+  font-size: 12px;
 }
 
 .mark {
@@ -80,18 +84,14 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
-/* @media screen and (max-width: 668px) {
-    .container {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-    nav ul li {
-      display: block;
-      margin: 10px 0;
-    }
-
-  } */
 /* CONTAINERS */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
 .container0 {
   width: 90%;
   max-width: 1100px;
@@ -128,13 +128,16 @@ nav ul li a {
 }
 
 /* BOXES */
-
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
+.text-box {
+  opacity: 0;
+  animation: slideInFromRight 0.9s forwards;
 }
+
+.image-box img,
+.images0 {
+  vertical-align: middle;
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;
@@ -191,77 +194,11 @@ nav ul li:first-child {
   font-size: large;
 }
 
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
 .title {
   font-size: 24px;
 }
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
-nav ul li {
-  display: inline;
-  margin-left: 20px;
-}
-
-nav ul li:first-child {
-  margin-left: 0;
-}
-/* IMAGES */
-.flag{
-  width: 20px;
-  filter: brightness(120%);
-}
-.images0 {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 5px;
-
-}
-
-.images1 {
-  border-top-right-radius: 10px;
-  border-bottom-right-radius: 5px;
-  height: 100%;
-  width: 100%;
-}
-
-.image02 {
-  border-top-left-radius: 10px;
-  border-bottom-left-radius: 5px;
-  height: 269px;
-  width: 100%;
-}
-
-.logo img {
-  max-width: 100px;
-  height: auto;
-  filter: brightness(80%);
-}
-
-.icon {
-  width: 44px;
-  height: 44px;
-}
-
-.icon0 {
-  width: 70px;
-  height: 60px;
-  
-}
-.icon1 {
-  width: 110px;
-  height: 45px;
-  
-}
 /* DOWNLOAD */
 .Dload {
   text-decoration: none;
@@ -269,7 +206,7 @@ nav ul li:first-child {
 }
 
 /* ANIMATION */
-.level:hover{
+.level:hover {
   color: #2561e2;
   transition: 0.4s;
 }
@@ -326,17 +263,6 @@ nav ul li:first-child {
   transition: 0.4s;
 }
 
-.bar {
-  border-radius: 3px;
-  height: 12px;
-  filter: brightness(120%);
-}
-
-.bar:hover {
-  transform: scale(1.05);
-  transition: 0.2s;
-  filter: brightness(150%);
-}
 .fade-in {
   opacity: 0;
   transition: opacity 1s ease-in-out;
@@ -344,20 +270,18 @@ nav ul li:first-child {
 .fade-in.fade-in-active {
   opacity: 1;
 }
-.title:hover{
+.title:hover {
   transition: 0.2s;
   color: #ffffff;
 }
 /* UNIVERSITY */
-
-
 .faculdade {
-  text-align: center; 
+  text-align: center;
 }
 
 .logo-faculdade {
-  width: 150px; 
-  margin-bottom: 10px; 
+  width: 150px;
+  margin-bottom: 10px;
   filter: brightness(50%);
 }
 
@@ -368,8 +292,8 @@ nav ul li:first-child {
   max-height: 100%;
   color: white;
   margin: auto;
-  padding: 0; 
-  
+  padding: 0;
+
   box-shadow: 2px 7px 55px black;
 }
 .informacoes-curso h2 {
@@ -378,34 +302,59 @@ nav ul li:first-child {
 
 .informacoes-curso p {
   margin-bottom: 0;
-  }
+}
 
 /* SCREENS */
-
 /* Estilos responsivos */
 @media screen and (max-width: 768px) {
   .logo-faculdade {
-      width: 100px; 
+    width: 100px;
   }
 
   .informacoes-curso {
-      padding: 15px;
+    padding: 15px;
   }
-  body{
+  body {
     height: 700vh;
   }
-  .certificates{
+  .certificates {
     display: block;
   }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
 
+  .title {
+    margin-top: 10px;
+  }
+
+  .line {
+    width: 230px;
+    border-color: #ffffff;
+  }
+
+  nav {
+    margin-top: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+
+  .icon {
+    width: 30px;
+    height: 39px;
+  }
 }
-
-
 @media screen and (min-width: 668px) {
   .content {
     flex-direction: row;
   }
-
+  .container {
+    flex-direction: row;
+  }
   .image-box {
     flex: 1;
     margin-right: 20px;
@@ -418,7 +367,6 @@ nav ul li:first-child {
     flex: 2;
     padding-top: 0;
   }
-
   .container0 {
     width: 90%;
     max-width: auto;
@@ -426,20 +374,27 @@ nav ul li:first-child {
     margin: 20px auto;
     border-radius: 9px;
   }
+  .container1 {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+  }
   .content1 {
     flex-direction: row;
   }
-  body{
-    height: 300vh;
+  body {
+    height: 400vh;
+  }
+  nav ul li {
+    display: inline;
+    margin-left: 20px;
   }
 }
-
 @media screen and (max-width: 670px) {
-
   .image02 {
     border-radius: 4px;
   }
-  .bar{
+  .bar {
     width: 250px;
     border-radius: 3px;
     height: 8px;
@@ -450,7 +405,7 @@ nav ul li:first-child {
     text-align: center;
   }
 
-  .tecnologies{
+  .tecnologies {
     max-height: 30px;
   }
   .container {
@@ -489,91 +444,15 @@ nav ul li:first-child {
     flex-direction: row;
     margin-left: 10px;
   }
-  body{
+  body {
     height: 1000vh;
   }
 }
-@media screen and (min-width: 668px) {
-  .container {
-    flex-direction: row;
-  }
-
-  nav ul li {
-    display: inline;
-    margin-left: 20px;
-  }
-
-  .content {
-    flex-direction: row;
-  }
-
-  .image-box {
-    flex: 1;
-    margin-right: 20px;
-  }
-
-  .text-box {
-    flex: 2;
-    padding-top: 0;
-  }
-
+/*@media screen and (min-width: 668px) {
   .container0 {
-    width: 90%;
     max-width: 1200px;
-    margin: 20px auto;
   }
-
-  .container1 {
-    width: 90%;
-    max-width: 1200px;
-    margin: 20px auto;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .title {
-    margin-top: 10px;
-  }
-
-  .line {
-    width: 230px;
-    border-color: #ffffff;
-  }
-
-  nav {
-    margin-top: 20px;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-
-  .icon {
-    width: 30px;
-    height: 39px;
-  }
-}
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    margin-top: 20px;
-  }
-
-  nav ul li {
-    display: block;
-    margin: 10px 0;
-  }
-}
-
+}*/
 @keyframes slideInFromRight {
   0% {
     transform: translateX(100%);
@@ -584,34 +463,3 @@ nav ul li:first-child {
     opacity: 1;
   }
 }
-
-.text-box {
-  opacity: 0; /* Inicia o elemento invisível */
-  animation: slideInFromRight 0.9s forwards; /* Aplica a animação */
-}
-
-.image-box img, .images0 {
-  vertical-align: middle;
-}
-
-/* Estilos padrão */
-.image-box img, .images0 {
-  vertical-align: middle;
-}
-
-/* Estilos para dispositivos com largura de tela menor que 670px */
-@media screen and (max-width: 670px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .image-box {
-    margin-right: 0;
-  }
-
-  .text-box {
-    padding-top: 20px;
-  }
-}
-

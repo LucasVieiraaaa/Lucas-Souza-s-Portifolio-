@@ -5,13 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bars.css">
+  <link rel="stylesheet" href="images.css">
   <link rel="shortcut icon" href="imgs.project/imgs/logo.png" type="image/x-icon">
   <title>Lucas Souza</title>
 </head>
 <header>
   <div class="container">
     <div class="logo">
-      <img src="imgs.project/imgs/logo.png" alt="Logo">
+      <a href="index.html"><img src="imgs.project/imgs/logo.png" alt="Logo"></a>
     </div>
     <!--  <div class="title">Education</div> -->
     <nav>
@@ -93,7 +95,7 @@
         </div>
         <div class="text-box">
           <br> <br>
-          <img src="imgs.project/icons/sslclogo.png" alt="logo" class="icon">
+          <img src="imgs.project/icons/sslclogo.png" alt="logo" class="icon2">
           <h2 class="mark">SSLC Power Speaking Media:</h2>
           <p class="textjustify0">
             SSLC Power Speaking Media is a dynamic platform dedicated to empowering individuals with effective
@@ -194,18 +196,24 @@
     <div class="content1">
       <div class="text-box">
         <br><br><br>
-        <p class="mark"><img src="imgs.project/flags/can.png" alt="Can" class="flag"><b> Englishㅤ<img src="imgs.project/icons/bar.png" alt="bar"
-              class="bar">ㅤ<i class="level">Fluent</i></p></b>
-        <br>
-        <p class="mark"><img src="imgs.project/flags/es.avif" alt="es" class="flag"><b>Spanishㅤ<img src="imgs.project/icons/bar2.png" alt="bar3"
-              class="bar">ㅤ<i class="level">Inter</i></p></b>
-        <br>
-        <p class="mark"><img src="imgs.project/flags/fr.avif" alt="fr" class="flag"><b> Frenchㅤ<img src="imgs.project/icons/bar3.png" alt="bar2"
-              class="bar">ㅤ<i class="level">Basic</i></p></b>
-        <br><br>
+        <div class="container">
+          <span class="label">English - Fluent</span>
+          <div class="bar" style="--width: 80%; --color: #5481e2;">
+          </div>
+          <span class="label">Spanish - Intermediary</span>
+          <div class="bar" style="--width: 50%; --color: #ffca04;">
+          </div>
+          <span class="label">French - Basic</span>
+          <div class="bar" style="--width: 20%; --color: #ee0000;">
+          </div>
+          <br>
+          <div class="Center_button">
+            </div>
+        </div>
       </div>
     </div>
   </div>
+  <hr class="line">
   <br><br><br>
   <script src="app.functions/script.js"></script>
   <script src="app.functions/animation.js"></script>
