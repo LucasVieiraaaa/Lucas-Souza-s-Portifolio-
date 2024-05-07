@@ -1,4 +1,4 @@
-.container {
+.container04 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -47,4 +47,17 @@
     transform: scale(1.05);
     transition: 0.2s;
     filter: brightness(150%);
+  }
+
+  @media screen and (max-width: 668px) {
+    .bar {
+      width: 330px;
+      height: 40px;
+      background-color: var(--color);
+      border-radius: 5px;
+      margin-bottom: 4px;
+      position: relative;
+      filter: brightness(120%);
+    }
+    
   }
