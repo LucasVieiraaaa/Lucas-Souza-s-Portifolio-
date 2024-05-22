@@ -29,6 +29,13 @@ header {
   line-height: 20px;
   font-size: 12px;
 }
+.textjustify1 {
+  margin: 20px;
+  text-align:justify;
+  line-height: 20px;
+  font-size: 12px;
+  color: white;
+}
 .certificates {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(920px, 2fr));
@@ -57,6 +64,12 @@ header {
 }
 .mark1{
   color: #8eba17;
+}
+.mark2{
+  color: #9417ba;
+}
+.mark3{
+  color: #ba7917;
 }
 .title {
   font-size: 20px;
@@ -556,26 +569,39 @@ nav ul li:first-child {
     opacity: 1;
   }
 }
-
-
-
-
-.batwavebox {
+.batwave {
   display: grid;
-  justify-content: center;
   align-items: center;
-  width: 90%;
-  max-width: 600px;
-  height: 90%;
-  max-height: 400px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  padding: 20px;
-  box-sizing: border-box;
-  overflow: hidden;
+  justify-content: center;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  padding: 10px;
+  justify-items: center; /* Centraliza os itens dentro do contêiner */
 }
-.batwavebox img {
+
+.batwave img {
+  border-radius: 10px;
   max-width: 100%;
-  max-height: 100%;
-  object-fit: cover;
+  height: auto;
+}
+.batwave_text{
+  display: grid;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 50px;
+}
+
+/* Media queries para diferentes tamanhos de tela */
+@media (min-width: 600px) {
+  .batwave {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (min-width: 900px) {
+  .batwave {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
 }
