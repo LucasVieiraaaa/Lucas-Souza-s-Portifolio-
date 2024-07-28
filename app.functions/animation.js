@@ -1,8 +1,12 @@
   // Fade-In animation
   document.addEventListener("DOMContentLoaded", function() {
-    var fadeContent = document.getElementById('fade-in-content');
-    fadeContent.classList.add('fade-in-active');
-  });
+    var fadeElements = document.querySelectorAll('.fade-in');
+    fadeElements.forEach((el, index) => {
+        setTimeout(() => {
+            el.classList.add('fade-in-active');
+        }, index * 100); // 100 milliseconds interval
+    });
+});
   
   
   // window.addEventListener('scroll', function() {
