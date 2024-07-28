@@ -1,63 +1,57 @@
 .container04 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: white;
-  }
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+.bar {
+  width: 500px;
+  height: 40px;
+  background-color: gray; /* Fundo cinza */
+  border-radius: 5px;
+  margin-bottom: 4px;
+  position: relative;
+  filter: brightness(120%);
+  transition: 0.2s;
+}
+.bar::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: var(--width); /* Largura definida pela variável */
+  background-color: var(--color);
+  border-radius: 5px;
+}
+.bar .label {
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+.bar span {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+.Center_button {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.bar:hover {
+  transform: scale(1.01);
+  /* filter: brightness(150%); */
+}
+@media screen and (max-width: 668px) {
   .bar {
-    width: 500px;
-    height: 40px;
-    background-color: var(--color);
-    border-radius: 5px;
-    margin-bottom: 4px;
-    position: relative;
-    filter: brightness(120%);
-  }
-  .bar::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: var(--width);
-    background-color: inherit;
-    border-radius: 5px;
-  }
-  
-  .bar .label {
-    position: absolute;
-    top: -20px;
-    left: 0;
-  }
-  
-  .bar span {
-    position: absolute;
-    top: 50%;
-    left: 10px;
-    transform: translateY(-50%);
-  }
-  
-  .Center_button{
-    display: grid;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .bar:hover {
-    transform: scale(1.05);
-    transition: 0.2s;
-    filter: brightness(150%);
-  }
-
-  @media screen and (max-width: 668px) {
-    .bar {
       width: 330px;
       height: 40px;
-      background-color: var(--color);
+      background-color: gray; /* Fundo cinza */
       border-radius: 5px;
       margin-bottom: 4px;
       position: relative;
       filter: brightness(120%);
-    }
-    
   }
+}
