@@ -373,7 +373,7 @@ nav ul li:first-child {
 }
 
 .logo img {
-  max-width: 100px;
+  max-width: 80px;
   height: auto;
   filter: brightness(80%);
 }
