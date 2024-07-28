@@ -46,13 +46,15 @@ header {
   background-color: #2561e2;
   color: white;
   border-radius: 8px;
-  font-size: medium;
+  /* font-size: medium; */
   border: none;
   width: 100px;
   height: 40px;
+  transition: 0.4s;
 }
 
 .level {
+  transition: 0.4s;
   color: #ffffff;
   font-size: 12px;
 }
@@ -101,6 +103,7 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  font-size: 17px;
 }
 
 nav ul li {
@@ -198,13 +201,16 @@ nav ul li:first-child {
   text-align: center;
 }
 
-.tecnologies {
+/* .tecnologies {
   max-height: 50px;
   filter: brightness(85%);
-}
+} */
+
 .socialMedia {
   max-height: 35px;
   filter: brightness(85%);
+  transition: 0.4s;
+
 }
 
 
@@ -230,6 +236,7 @@ nav ul li:first-child {
 .Dload {
   text-decoration: none;
   color: #5888f0;
+  transition: 0.4s;
 }
 
 /* ANIMATION */
@@ -264,30 +271,29 @@ nav ul li:first-child {
 
 .letschat:hover {
   transform: scale(1.15);
-  transition: 0.4s;
+  /* transition: 0.4s; */
 }
 
-.logo:hover {
+/* .logo:hover {
   filter: brightness(180%);
   transform: scale(1.15);
   transition: 0.4s;
-}
+} */
 
-.tecnologies:hover {
+/* .tecnologies:hover {
   filter: brightness(110%);
   transform: scale(1.15);
   transition: 0.4s;
-}
+} */
 .socialMedia:hover {
   filter: brightness(110%);
   transform: scale(1.15);
-  transition: 0.4s;
+  /* transition: 0.4s; */
 }
 
 .Dload:hover {
   color: white;
   transform: scale(1.15);
-  transition: 0.4s;
 }
 
 .fade-in {
@@ -297,10 +303,10 @@ nav ul li:first-child {
 .fade-in.fade-in-active {
   opacity: 1;
 }
-.title:hover {
+/* .title:hover {
   transition: 0.2s;
   color: #ffffff;
-}
+} */
 /* UNIVERSITY */
 .faculdade {
   text-align: center;
