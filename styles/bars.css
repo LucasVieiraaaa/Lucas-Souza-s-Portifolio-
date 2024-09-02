@@ -7,7 +7,7 @@
 .bar {
   width: 500px;
   height: 40px;
-  background-color: gray; /* Fundo cinza */
+  background-color: gray;
   border-radius: 5px;
   margin-bottom: 4px;
   position: relative;
@@ -20,7 +20,7 @@
   top: 0;
   left: 0;
   height: 100%;
-  width: var(--width); /* Largura definida pela variável */
+  width: var(--width);
   background-color: var(--color);
   border-radius: 5px;
 }
@@ -42,13 +42,12 @@
 }
 .bar:hover {
   transform: scale(1.01);
-  /* filter: brightness(150%); */
 }
 @media screen and (max-width: 668px) {
   .bar {
       width: 330px;
       height: 40px;
-      background-color: gray; /* Fundo cinza */
+      background-color: gray;
       border-radius: 5px;
       margin-bottom: 4px;
       position: relative;
