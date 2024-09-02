@@ -160,7 +160,12 @@ nav ul li a {
   flex-direction: column;
 }
 /* BOXES */
-.text-box {
+/* .text-box {
+  opacity: 0;
+  animation: slideInFromRight 0.9s forwards;
+} */
+
+.container0 {
   opacity: 0;
   animation: slideInFromRight 0.9s forwards;
 }
