@@ -12,7 +12,7 @@ a{
   color: white;
 }
 header {
-  background: #0b0b0b;
+  background-color: #080808;
   color: #3c3c3c;
   padding: 10px 0;
   width: 100%;
@@ -351,9 +351,9 @@ nav ul li:first-child {
 }
 
 .logo img {
-  max-width: 80px;
+  max-width: 100px;
   height: auto;
-  filter: brightness(80%);
+  border-radius: 1em;
 }
 
 .icon {
