@@ -7,6 +7,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  margin-bottom: 5em;
 }
 a{
   color: white;
@@ -84,7 +85,7 @@ header {
 
 .vertical-line {
   border-left: 2px dashed #ffffff;
-  height: 70px;
+  height: 15em;
 }
 .mid {
   display: flex;
@@ -182,6 +183,15 @@ nav ul li a {
 }
 
 .container0:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.container0:nth-child(5) {
+  animation-delay: 0.9s;
+}
+.container0:nth-child(6) {
+  animation-delay: 0.9s;
+}
+.container0:nth-child(7) {
   animation-delay: 0.9s;
 }
 
@@ -473,6 +483,7 @@ nav ul li:first-child {
     max-height: auto;
     margin: 20px auto;
     border-radius: 9px;
+    margin-bottom: 5em;
   }
   .container1 {
     width: 90%;
@@ -483,7 +494,7 @@ nav ul li:first-child {
     flex-direction: row;
   }
   body {
-    height: 250vh;
+    height: 100%;
   }
   nav ul li {
     display: inline;
