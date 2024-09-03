@@ -6,5 +6,5 @@ Hello There!! My name is <b>Lucas Souza</b> and I'm a System of Information stud
 
 # My Contacts
 GitHub:   https://github.com/LucasVieiraaaa
-Linkedin: https://www.linkedin.com/in/lucas-souza-0435b1260/
+Linkedin: https://www.linkedin.com/in/lucas-vieira-souza-0435b1260/
 WhatsApp: 55+ (31) 975580097
