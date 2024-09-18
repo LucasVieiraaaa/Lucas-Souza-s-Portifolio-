@@ -88,6 +88,7 @@ header {
 .line {
   width: 500px;
   border-color: white;
+  margin-bottom: 3em;
 }
 nav ul {
   list-style: none;
