@@ -1,4 +1,6 @@
-/* MAINSTYLE */
+:root{
+  --system-color: #eea301;
+}
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -44,34 +46,24 @@ header {
 }
 .letschat {
   text-decoration: none;
-  background-color: #eea301;
-  color: white;
-  border-radius: 8px;
-  border: none;
-  width: 100px;
+  background-color: transparent;
+  border: 0.3em solid var(--system-color);
+  color:  var(--system-color);
+  font-size: 0.8em;
+  width: 9.5em;
   height: 40px;
-  transition: 0.4s;
+  transition: 0.3s;
 }
-
+.letschat:hover {
+  background-color:  var(--system-color);
+}
 .level {
   transition: 0.4s;
   color: #ffffff;
   font-size: 12px;
 }
 .mark {
-  color: #eea301;
-}
-.mark0{
-  color: #eea301;
-}
-.mark1{
-  color: #eea301;
-}
-.mark2{
-  color: #eea301;
-}
-.mark3{
-  color: #ba7917;
+  color:  var(--system-color);
 }
 .title {
   font-size: 20px;
@@ -93,24 +85,20 @@ header {
   justify-content: center;
   color: white;
 }
-
 .line {
   width: 500px;
   border-color: white;
 }
-
 nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
   font-size: 17px;
 }
-
 nav ul li {
   display: inline;
   margin-left: 20px;
 }
-
 nav ul li a {
   text-decoration: none;
 }
@@ -121,7 +109,6 @@ nav ul li a {
   align-items: center;
   padding: 20px;
 }
-
 .container0 {
   width: 90%;
   max-width: 1100px;
@@ -160,12 +147,6 @@ nav ul li a {
   display: flex;
   flex-direction: column;
 }
-/* BOXES */
-/* .text-box {
-  opacity: 0;
-  animation: slideInFromRight 0.9s forwards;
-} */
-
 .container0 {
   opacity: 0;
   animation: slideInFromRight 0.9s forwards;
@@ -173,15 +154,12 @@ nav ul li a {
 .container0:nth-child(1) {
   animation-delay: 0s;
 }
-
 .container0:nth-child(2) {
   animation-delay: 0.3s;
 }
-
 .container0:nth-child(3) {
   animation-delay: 0.6s;
 }
-
 .container0:nth-child(4) {
   animation-delay: 0.9s;
 }
@@ -237,7 +215,6 @@ nav ul li:first-child {
 
 }
 
-
 .image1 img {
   max-width: 100%;
 }
@@ -255,17 +232,14 @@ nav ul li:first-child {
   font-size: 24px;
 }
 
-
-/* DOWNLOAD */
 .Dload {
   text-decoration: none;
-  color: #eea301;
+  color:  var(--system-color);
   transition: 0.4s;
 }
 
-/* ANIMATION */
 .level:hover {
-  color: #eea301;
+  color:  var(--system-color);
   transition: 0.4s;
 }
 
@@ -281,7 +255,7 @@ nav ul li:first-child {
   content: " ";
   width: 100%;
   height: 2px;
-  background-color: #eea301;
+  background-color:  var(--system-color);
   position: absolute;
   bottom: 0;
   left: 0;
@@ -289,17 +263,14 @@ nav ul li:first-child {
 }
 
 .animation01:hover {
-  color: #eea301;
+  color:  var(--system-color);
   transition: 0.4s;
 }
 
-.letschat:hover {
-  transform: scale(1.15);
-}
 
 .socialMedia:hover {
-  filter: brightness(110%);
-  transform: scale(1.15);
+  filter: brightness(105%);
+  transform: scale(1.05);
 }
 
 .Dload:hover {
@@ -315,7 +286,6 @@ nav ul li:first-child {
   opacity: 1;
 }
 
-/* UNIVERSITY */
 .faculdade {
   text-align: center;
 }
@@ -344,7 +314,6 @@ nav ul li:first-child {
 .informacoes-curso p {
   margin-bottom: 0;
 }
-/* IMAGES */
 .flag {
   width: 20px;
   filter: brightness(120%);
@@ -385,7 +354,6 @@ nav ul li:first-child {
   height: auto;
   border-radius: 1em;
 }
-
 .icon {
   width: 44px;
   height: 44px;
@@ -403,9 +371,6 @@ nav ul li:first-child {
   height: 48px;
 }
 
-
-/* SCREENS */
-/* Estilos responsivos */
 @media screen and (max-width: 768px) {
   .logo-faculdade {
     width: 100px;
@@ -467,7 +432,6 @@ nav ul li:first-child {
   }
   .image-box {
     flex: 1;
-    margin-right: 20px;
   }
   .image1 {
     flex: 1;
@@ -512,7 +476,8 @@ nav ul li:first-child {
   }
   .text-box {
     font-size: 13px;
-    padding-top: 20px;
+    padding-top: 1.1em;
+    padding-bottom: 1em;
     text-align: center;
   }
 
@@ -576,40 +541,5 @@ nav ul li:first-child {
   100% {
     transform: translateX(0);
     opacity: 1;
-  }
-}
-.batwave {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  grid-template-columns: 1fr;
-  gap: 10px;
-  padding: 10px;
-  justify-items: center;
-}
-
-.batwave img {
-  border-radius: 10px;
-  max-width: 100%;
-  height: auto;
-}
-.batwave_text{
-  display: grid;
-  text-align: center;
-  font-size: 12px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  padding: 50px;
-}
-
-@media (min-width: 600px) {
-  .batwave {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  }
-}
-
-@media (min-width: 900px) {
-  .batwave {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
 }
