@@ -47,7 +47,7 @@ header {
 .letschat {
   text-decoration: none;
   background-color: transparent;
-  border: 0.3em solid var(--system-color);
+  border: 0.2em solid var(--system-color);
   color:  var(--system-color);
   font-size: 0.8em;
   width: 9.5em;
