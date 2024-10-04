@@ -1,19 +1,27 @@
+:root {
+  --system-color: #eea301;
+}
+
 .container04 {
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
 }
+
 .bar {
-  width: 500px;
-  height: 40px;
+  width: 240px;
+  max-width: 250px;
+  height: 2.2em;
+  max-height: 3em;
   background-color: gray;
-  border-radius: 5px;
+  border-radius: 0.5em;
   margin-bottom: 4px;
   position: relative;
   filter: brightness(120%);
   transition: 0.2s;
 }
+
 .bar::after {
   content: "";
   position: absolute;
@@ -24,33 +32,38 @@
   background-color: var(--color);
   border-radius: 5px;
 }
+
 .bar .label {
   position: absolute;
   top: -20px;
   left: 0;
 }
+
 .bar span {
   position: absolute;
   top: 50%;
   left: 10px;
   transform: translateY(-50%);
 }
+
 .Center_button {
   display: grid;
   justify-content: center;
   align-items: center;
 }
+
 .bar:hover {
   transform: scale(1.01);
 }
+
 @media screen and (max-width: 668px) {
   .bar {
-      width: 330px;
-      height: 40px;
-      background-color: gray;
-      border-radius: 5px;
-      margin-bottom: 4px;
-      position: relative;
-      filter: brightness(120%);
+    width: 330px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 5px;
+    margin-bottom: 4px;
+    position: relative;
+    filter: brightness(120%);
   }
 }
