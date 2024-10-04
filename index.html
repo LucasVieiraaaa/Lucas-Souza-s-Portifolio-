@@ -20,14 +20,14 @@
         <li><a href="experience.html" class="animation01">Experience</a></li>
         <li><a href="https://lucas-souza-portfolio.vercel.app/" class="animation01">Portfolio 2.0v</a></li>
         <!-- <li><a href="experience.html" class="animation01">Projects</a></li> -->
-        <li><button onclick="WhatsApp()" class="letschat"><a href="#">Let's Chat</a></button>
+        <li><button onclick="WhatsApp()" class="letschat"><a href="#" id="letsChat"></a></button>
         </li>
       </ul>
     </nav>
   </div>
 </header>
 <br><br>
-<h1 class="mid"><b>Home</b></h1>
+<h1 class="mid"><b id="home">Loading...</b></h1>
 <hr class="line" style="margin-bottom: 0px;">
 <br><br>
 <body id="fade-in-content" class="fade-in">
@@ -38,10 +38,10 @@
       </div>
       <div class="text-box">
         <br><br>
-        <h2 class="mark">Resume</h2>
+        <h2 class="mark" id="resume">Loading...</h2>
         <p class="textjustify0">Hello There!! My name is <a class="mark"><b>Lucas Souza</b></a> and I'm a Programmer
           with a strong proficiency
-          in <a class="mark"><b>FullStack</b></a> technologies, such as <a class="mark"
+          in <a class="mark"><b id="fullStack"></b> </a> technologies, such as <a class="mark"
             href="https://angular.io/">Angular</a>, <a class="mark" href="https://www.typescriptlang.org/">
             Typescript</a>, <a class="mark" href="https://dotnet.microsoft.com/pt-br/languages/csharp">C#</a>,
           and <a class="mark" href="https://www.microsoft.com/pt-br/sql-server/sql-server-downloads">SQL</a>. <br>
@@ -49,12 +49,12 @@
           English, with intermediate
           proficiency in Spanish and basic knowledge of French acquired during my
           stint in Vancouver.
-          In addition I have full-cycle experience that covers <b class="mark"> infrastructure</b>, computer networks
+          In addition I have full-cycle experience that covers <b class="mark" id="infrastructure"></b>, computer networks
           and development. <br>
-          On the <b class="mark">front-end</b>, I create dynamic interfaces, working with screens, routes, components
+          On the <b class="mark" id="frontEnd"></b>, I create dynamic interfaces, working with screens, routes, components
           and other essential
           aspects
-          of web development. On the <b class="mark">back-end</b>, I have deep knowledge in creating and maintaining
+          of web development. On the <b class="mark" id="backEnd"></b>, I have deep knowledge in creating and maintaining
           APIs, using Swagger to
           ensure
           documentation and integrity over time. In addition, I manipulate databases, ensuring efficiency
@@ -62,13 +62,12 @@
           I am always up to date with the latest technologies and market trends, which allows me to bring innovation and
           efficiency to the projects I work on.<br>
           My main goal is to always deliver agile and intelligent solutions.
-          <br><br><a href="imgs.project/docs/LucasSouzaPortfolioResume.pdf" download class="Dload"><b>Resume Updated in
-              09/02/2024</b></a>
+          <br><br><a href="imgs.project/docs/LucasSouzaPortfolioResume.pdf" download class="Dload"><b id="resumeUpdated">Loading...</b></a>
         </p><br>
       </div>
     </div>
   </div>
-  <h2 class="mid"><b>Languages</b></h2>
+  <h2 class="mid"><b id="languages">Loading...</b></h2>
   <hr class="line">
   <div class="container0 p-0">
     <div class="content1">
@@ -79,7 +78,7 @@
               <div class="flex" style="margin-bottom: 2em;">
                 <img id="canada" src="./imgs.project/icons/svg/canada-flag-icon.svg" alt="canada-flag-icon"
                   class="small-icon">
-                <label class="p-1" for="canada">English - Fluent</label>
+                <label class="p-1" for="canada" id="english"></label>
               </div>
               <div class="bar" style="--width: 100%; --color:var(--system-color);"></div>
             </div>
@@ -87,7 +86,7 @@
               <div class="flex" style="margin-bottom: 2em;">
                 <img id="france" src="./imgs.project/icons/svg/france-flag-icon.svg" alt="france-flag-icon"
                   class="small-icon">
-                <label class="p-1" for="france">French - Basic</label>
+                <label class="p-1" for="france" id="french"></label>
               </div>
               <div class="bar" style="--width: 52%; --color: var(--system-color);"></div>
             </div>
@@ -95,7 +94,7 @@
               <div class="flex" style="margin-bottom: 2em;">
                 <img id="spain" src="./imgs.project/icons/svg/spain-country-flag-icon.svg" alt="spain-flag-icon"
                   class="small-icon">
-                <label class="p-1" for="spain">Spanish - Inter</label>
+                <label class="p-1" for="spain" id="spanish"></label>
               </div>
             <div class="bar" style="--width: 68%; --color: var(--system-color);"></div>
             </div>
@@ -109,7 +108,7 @@
       </div>
     </div>
   </div>
-  <h3 class="mid"><b class="mark">Let's be social</b></h3>
+  <h3 class="mid"><b class="mark" id="letsBeSocial"></b></h3>
   <hr class="line">
   <div class="container0">
     <div class="content1">
@@ -164,5 +163,6 @@
   </div>
   <script src="app.functions/script.js"></script>
   <script src="app.functions/animation.js"></script>
+  <script src="app.functions/en.js"></script>
 </body>
 </html>
