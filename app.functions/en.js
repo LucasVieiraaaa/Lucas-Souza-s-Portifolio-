@@ -37,3 +37,9 @@ document.getElementById('infrastructure').textContent = infrastructure;
 
 let fullStack = 'FULL STACK';
 document.getElementById('fullStack').textContent = fullStack;
+
+let lucasSouza = 'Lucas Souza';
+document.getElementById('lucasSouza').textContent = lucasSouza;
+
+let exp = 'Experience';
+document.getElementById('exp').textContent = exp;
