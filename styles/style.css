@@ -354,10 +354,9 @@ nav ul li:first-child {
 }
 
 .box {
-  /* box-shadow: rgb(0 0 0 / 42%) 0px 5px 15px; */
   border-radius: 2em;
   padding: 0.5em;
-  margin: 2em;
+  margin: 1.5em;
 }
 .flex{
   display: flex;

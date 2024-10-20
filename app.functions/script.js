@@ -17,3 +17,12 @@ function enviarEmail01(){
     var link = "https://api.whatsapp.com/send?phone=" + x + "&text=" + encodeURIComponent(mensagem);
     window.open(link);
 }
+
+
+function underMaintaince(){
+  alert("Page under Maintaice, sorry for the inconvenient...")
+}
+
+function howDidYouGethere(){
+  alert("How did you get here?")
+}
