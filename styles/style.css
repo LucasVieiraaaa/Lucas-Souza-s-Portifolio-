@@ -614,10 +614,6 @@ nav ul li:first-child {
     flex-direction: row;
   }
 
-  .container {
-    flex-direction: row;
-  }
-
   .image-box {
     flex: 1;
   }

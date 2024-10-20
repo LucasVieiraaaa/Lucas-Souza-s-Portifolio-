@@ -1,0 +1,93 @@
+:root{
+    --font-color: #ffffff;
+}
+
+.project-card {
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: clamp(25%, 35%, 50%);
+    margin: 2em;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 0.5em;
+
+    & img {
+        max-width:85%;
+        margin: 1em;
+        border-radius: 0.5em;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+    }
+
+    & a{
+        color: var(--font-color);
+        font-size: 0.8em;
+        padding: 3.2em;
+        padding-top: 0.75em;
+        padding-bottom: 1em;
+        margin: 0;
+    }
+
+    & h5, h4, h3, h2{
+        text-align: center;
+        color: var(--font-color);
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .margin-false{
+    margin: 0;
+  }
+  .font-weight-false{
+    font-weight: 100;
+  }
+  .project-button{
+    background-color: var(--system-color);
+    color: #232529;
+    padding: 0.85em;
+    margin: 1em;
+    border: solid transparent 0px;
+    font-size: 0.99em;
+    transition: 0.3s;
+    width: 85%;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    padding-top: 1em;
+  }
+  .project-button:hover{
+    border-radius: 0.5em;
+    color: #ffffff;
+  }
+
+@media screen and (max-width: 1000px){
+    .project-card {
+        display: flex;
+        max-width:85%;
+        width: 35em;
+        min-width:85%;
+        margin: 2.5em;
+    
+        & img {
+            max-width:85%;
+            width: 85%;
+        }
+    }
+    .project-button{
+        padding: 0.85em;
+    }
+}
