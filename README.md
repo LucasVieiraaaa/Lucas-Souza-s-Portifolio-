@@ -9,4 +9,4 @@ GitHub:   https://github.com/LucasVieiraaaa
 
 Linkedin: https://www.linkedin.com/in/lucas-vieira-souza-0435b1260/
 
-WhatsApp: 55+ (31) 97558-0097
+WhatsApp: https://api.whatsapp.com/send?phone=5531975580097
