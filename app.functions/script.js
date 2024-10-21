@@ -26,3 +26,39 @@ function underMaintaince(){
 function howDidYouGethere(){
   alert("How did you get here?")
 }
+
+function hrefLinkedIn(){
+  window.location.href = "https://www.linkedin.com/in/lucas-vieira-souza-0435b1260/";
+}
+
+function hrefGithub(){
+  window.location.href = "https://github.com/LucasVieiraaaa";
+}
+
+function hrefInstagram(){
+  window.location.href = "https://www.instagram.com/luketakk/";
+}
+
+function hrefBatWave(){
+  window.location.href = "https://github.com/LucasVieiraaaa/BatWave_Repository";
+}
+
+function hrefQRCode(){
+  window.location.href = "https://qr-code-project-sigma.vercel.app/";
+}
+
+function hrefResumePortfolio(){
+  window.location.href = "https://lucas-souza-portfolio.vercel.app/";
+}
+
+function hrefEndoscopy(){
+  window.location.href = "https://github.com/LucasVieiraaaa/Endo";
+}
+
+function hrefDevoradores(){
+  window.location.href = "https://devoradores-repository.vercel.app/index.html";
+}
+
+function hrefVolunteerConnect(){
+  window.location.href = "https://pbr-si-2023-1-p1-proj-web-g6-grupo-6.vercel.app/index.html";
+}
