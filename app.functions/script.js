@@ -62,3 +62,7 @@ function hrefDevoradores(){
 function hrefVolunteerConnect(){
   window.location.href = "https://pbr-si-2023-1-p1-proj-web-g6-grupo-6.vercel.app/index.html";
 }
+
+function hrefKanbanProject(){
+  window.location.href = "https://kanban-project-lucas-souza.vercel.app/";
+}

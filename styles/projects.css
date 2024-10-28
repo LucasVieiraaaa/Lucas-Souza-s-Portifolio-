@@ -14,13 +14,13 @@
   border-radius: 0.5em;
 
   & img {
-    max-width: 85%;
+    max-width: 80%;
     margin: 1em;
     border-radius: 0.5em;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 85%;
+    width: 80%;
   }
 
   & a {
@@ -84,14 +84,14 @@
 @media screen and (max-width: 1000px) {
   .project-card {
     display: flex;
-    max-width: 85%;
+    max-width: 80%;
     width: 35em;
-    min-width: 85%;
+    min-width: 80%;
     margin: 2.5em;
 
     & img {
-      max-width: 85%;
-      width: 85%;
+      max-width: 80%;
+      width: 80%;
     }
   }
 
