@@ -30,7 +30,7 @@ let frontEnd = 'FRONT-END';
 document.getElementById('frontEnd').textContent = frontEnd;
 
 let backEnd = 'BACK-END';
-document.getElementById('backEnd').textContent = frontEnd;
+document.getElementById('backEnd').textContent = backEnd;
 
 let infrastructure = 'INFRASTRUCTURE';
 document.getElementById('infrastructure').textContent = infrastructure;
