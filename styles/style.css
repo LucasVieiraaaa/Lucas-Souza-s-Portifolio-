@@ -13,6 +13,10 @@ body {
   margin-bottom: 5em;
 }
 
+.margin-0{
+margin: 0 !important;
+}
+
 a {
   color: white;
 }
@@ -48,7 +52,7 @@ header {
 }
 
 .textjustify2 {
-  margin: 3.5em;
+  margin: 3.25em;
   padding: 0px;
   text-align: justify;
   line-height: 20px;
