@@ -13,7 +13,7 @@ function enviarEmail01(){
   // Function that sends me messages via WhatsApp
   function WhatsApp() {
     var x = "5531975580097";
-    var mensagem = "Hi Lucas Souza, I saw your portfolio and I saw that you are into FullStack Development technologies,lets get in touch!";
+    var mensagem = "Hi Lucas Souza, I saw your portfolio and I saw that you are into Full stack development technologies,lets get in touch! 🧑‍💻☕️";
     var link = "https://api.whatsapp.com/send?phone=" + x + "&text=" + encodeURIComponent(mensagem);
     window.open(link);
 }
