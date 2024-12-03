@@ -659,6 +659,10 @@ nav ul li:first-child {
 }
 
 @media screen and (max-width: 670px) {
+  .textjustify0{
+    padding-right: 0px;
+  }
+
   .image02 {
     border-radius: 4px;
     border-bottom-left-radius: 0;
@@ -666,6 +670,7 @@ nav ul li:first-child {
   }
   .image-box img{
     max-width: 100%;
+    margin-top: 2em;
   }
   .images0 {
     border-top-left-radius: 0.5em;
