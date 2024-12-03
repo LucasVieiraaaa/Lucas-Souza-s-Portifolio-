@@ -15,6 +15,11 @@ WhatsApp: https://api.whatsapp.com/send?phone=5531975580097
 ## Portfolio
 ### Change log
 
+<h3>3.17.4</h3>
+<p>-Date 12/02/2024 - Responsivity update for mobile</p>
+
+### Change log
+
 <h3>3.17.3</h3>
 <p>-Date 11/22/2024 - Responsivity update for mobile version and resizing containers</p>
 
