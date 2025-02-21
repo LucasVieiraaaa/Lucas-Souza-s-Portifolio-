@@ -1,5 +1,5 @@
-let languages = "Languages";
-document.getElementById('languages').textContent = languages;
+// let languages = "Languages";
+// document.getElementById('languages').textContent = languages;
 
 let Home = "Home";
 document.getElementById('home').textContent = Home;
@@ -16,8 +16,8 @@ document.getElementById('french').textContent = france;
 let spanish = 'Español - Inter';
 document.getElementById('spanish').textContent = spanish;
 
-let letsBeSocial = 'Let\'\s be social';
-document.getElementById('letsBeSocial').textContent = letsBeSocial;
+// let letsBeSocial = 'Let\'\s be social';
+// document.getElementById('letsBeSocial').textContent = letsBeSocial;
 
 let letsChat = 'Let\'\s Chat';
 document.getElementById('letsChat').textContent = letsChat;
