@@ -66,3 +66,7 @@ function hrefVolunteerConnect(){
 function hrefKanbanProject(){
   window.location.href = "https://kanban-project-lucas-souza.vercel.app/";
 }
+
+function hrefSlock(){
+  window.location.href = "https://aptasistemas.com.br/apta-slock/";
+}
