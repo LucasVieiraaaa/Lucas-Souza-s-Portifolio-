@@ -38,14 +38,14 @@ header {
   margin: 2em;
   text-align: justify;
   line-height: 20px;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .textjustify1 {
   margin: 20px;
   text-align: justify;
   line-height: 20px;
-  font-size: 12px;
+  font-size: 13px;
   color: white;
 }
 
@@ -362,6 +362,7 @@ nav ul li:first-child {
   flex-wrap: wrap;
   align-items: center;
   padding: 2em;
+  border-radius: 0.5em;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -522,7 +523,8 @@ nav ul li:first-child {
 .experience-div {
   display: flex;
   gap: 3em;
-  align-items: center;
+  justify-content: center;
+
 }
 
 .logo img {
@@ -552,13 +554,7 @@ nav ul li:first-child {
 }
 
 @media screen and (max-width: 768px) {
-  .experience-div{
-    display: flex;
-    gap: 0;
-    padding-top: 2em;
-    align-items: center;
-    flex-direction: column;
-  }
+
   .logo-faculdade {
     width: 100px;
   }
@@ -789,5 +785,28 @@ nav ul li:first-child {
   .photo-container img,
   .photo-container-02 img {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .experience-div {
+    display: flex;
+    gap: 0;
+    padding-top: 2em;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .textjustify0 {
+    margin: 4em;
+    margin-top: 0;
+    text-align: justify;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  
+  .image03{
+    border-radius: 0.5em;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
   }
 }

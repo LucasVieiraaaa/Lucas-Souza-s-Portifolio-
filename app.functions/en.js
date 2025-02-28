@@ -1,8 +1,11 @@
 // let languages = "Languages";
 // document.getElementById('languages').textContent = languages;
 
-let Home = "Home";
-document.getElementById('home').textContent = Home;
+// let Home = "Home";
+// document.getElementById('home').textContent = Home;
+
+let lucas = 'Lucas Souza';
+document.getElementById('lucas').textContent = lucas;
 
 // let resume = "Resume";
 // document.getElementById('resume').textContent = resume;
