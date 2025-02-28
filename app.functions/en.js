@@ -4,8 +4,8 @@
 let Home = "Home";
 document.getElementById('home').textContent = Home;
 
-let resume = "Resume";
-document.getElementById('resume').textContent = resume;
+// let resume = "Resume";
+// document.getElementById('resume').textContent = resume;
 
 let english = 'English - Fluent';
 document.getElementById('english').textContent = english;
@@ -22,9 +22,9 @@ document.getElementById('spanish').textContent = spanish;
 let letsChat = 'Let\'\s Chat';
 document.getElementById('letsChat').textContent = letsChat;
 
-let resumeUpdatedDate = '21/11/2024'
-let resumeUpdated = `Resume Updated in ${resumeUpdatedDate}`;
-document.getElementById('resumeUpdated').textContent = resumeUpdated;
+// let resumeUpdatedDate = '21/11/2024'
+// let resumeUpdated = `Resume Updated in ${resumeUpdatedDate}`;
+// document.getElementById('resumeUpdated').textContent = resumeUpdated;
 
 let frontEnd = 'FRONT-END';
 document.getElementById('frontEnd').textContent = frontEnd;
@@ -32,8 +32,11 @@ document.getElementById('frontEnd').textContent = frontEnd;
 let backEnd = 'BACK-END';
 document.getElementById('backEnd').textContent = backEnd;
 
-let infrastructure = 'INFRASTRUCTURE';
-document.getElementById('infrastructure').textContent = infrastructure;
+let docker = 'DOCKER';
+document.getElementById('DOCKER').textContent = docker;
+
+let linux = 'LINUX';
+document.getElementById('LINUX').textContent = linux;
 
 let fullStack = 'FULL STACK';
 document.getElementById('fullStack').textContent = fullStack;
