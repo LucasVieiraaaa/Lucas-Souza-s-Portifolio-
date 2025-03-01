@@ -90,6 +90,7 @@ button {
 
 .mark {
   color: var(--system-color) !important;
+  text-decoration: none;
 }
 
 .title {
