@@ -58,7 +58,7 @@ function hrefResumePortfolio(){
 }
 
 function hrefEndoscopy(){
-  window.location.href = "https://github.com/LucasVieiraaaa/Endo";
+  window.location.href = "https://lucasvieiraaaa.github.io/Endo/index.html";
 }
 
 function hrefDevoradores(){
