@@ -35,7 +35,8 @@ header {
 }
 
 .textjustify0 {
-  margin: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
   text-align: justify;
   line-height: 18px;
   font-size: 13px;
@@ -494,7 +495,7 @@ nav ul li:first-child {
 .image02 {
   border-top-left-radius: 0.5em;
   border-bottom-left-radius: 0.5em;
-  height: 269px;
+  height: 265px;
   width: 100%;
 }
 
