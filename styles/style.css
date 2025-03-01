@@ -493,8 +493,8 @@ nav ul li:first-child {
 }
 
 .image02 {
-  border-top-left-radius: 1em;
-  border-bottom-left-radius: 1em;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
   height: 269px;
   width: 100%;
 }
@@ -639,7 +639,7 @@ nav ul li:first-child {
   }
 
   .image02 {
-    border-radius: 1em;
+    border-radius: 0.5em;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
   }
