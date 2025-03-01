@@ -124,7 +124,6 @@ nav ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  /* font-size: 17px; */
 }
 
 nav ul li {
@@ -586,7 +585,7 @@ nav ul li:first-child {
   }
 }
 
-@media screen and (min-width: 668px) {
+@media screen and (min-width: 750px) {
   .content {
     flex-direction: row;
   }
@@ -779,7 +778,7 @@ nav ul li:first-child {
   }
 
   .textjustify0 {
-    margin: 4em;
+    margin: 3em;
     margin-top: 0;
     text-align: justify;
     line-height: 20px;

@@ -19,3 +19,13 @@
     align-content: center;
     gap: 1em;
 }
+
+.python-certificate{
+    height: 220px;
+}
+
+@media screen and (max-width: 783px) {
+    .python-certificate{
+        height: 210px;
+    }
+}
