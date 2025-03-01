@@ -26,6 +26,17 @@
 
 @media screen and (max-width: 783px) {
     .python-certificate{
-        height: 210px;
+        height: 210px !important;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .python-certificate{
+        height: 190px !important;
+    }
+
+    .certificate-images {
+        height: 200px;
     }
 }
