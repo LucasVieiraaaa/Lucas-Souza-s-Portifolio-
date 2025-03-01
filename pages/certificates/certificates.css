@@ -1,0 +1,21 @@
+.certificate-images {
+    width: auto;
+    height: 240px;
+    border-radius: 0.5em;
+}
+
+.image-box-nv-02 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.grid-flex-layout {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+}
