@@ -76,3 +76,7 @@ function hrefKanbanProject(){
 function hrefSlock(){
   window.location.href = "https://aptasistemas.com.br/apta-slock/";
 }
+
+function hrefHUBDAY(){
+  window.location.href = "https://hubday.com.br/";
+}
