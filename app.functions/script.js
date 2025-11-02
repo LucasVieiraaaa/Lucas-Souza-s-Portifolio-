@@ -18,8 +18,8 @@ function enviarEmail01(){
 
 function downloadResume() {
   const link = document.createElement('a');
-  link.href = 'imgs.project/docs/LUCASSOUSZACV-2024-2-11.pdf'; 
-  link.download = 'LUCASSOUSZACV-2024-2-11.pdf';
+  link.href = 'imgs.project/docs/Lucas-Souza.pdf'; 
+  link.download = 'Lucas-Souza.pdf';
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
